@@ -1,0 +1,194 @@
+<resources>
+
+    <!--English-->
+
+    <string name="app_name">SkilEx</string>
+    <string name="empty" />
+    <string name="error_no_net">No internet access. Please check your connection and try again.</string>
+    <string name="error_occurred">Failed to connect to the server. Please try again.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <!--Dialog Fragment-->
+
+    <string name="alert_button_ok">OK</string>
+    <string name="alert_button_cancel">Cancel</string>
+    <string name="alert_button_yes">Yes</string>
+    <string name="alert_button_no">No</string>
+
+    <!--User Data-->
+
+    <string name="mobile_number">Mobile Number</string>
+    <string name="user_name">Name</string>
+    <string name="user_address">Address</string>
+    <string name="user_mail">E-Mail</string>
+    <string name="user_gender">Gender</string>
+    <string name="select_user_gender">Select Gender</string>
+
+    <!--Google API key-->
+
+    <string name="google_android_map_api_key">AIzaSyD428E0W4-pf4kJuJ3rsqG5vCELRgmR2ok</string>
+
+    <!--Login-->
+
+    <string name="login">Login</string>
+    <string name="skip_login">Skip for now</string>
+    <string name="skip">Skip</string>
+    <string name="welcome">Welcome!</string>
+    <string name="enter_text">Enter Mobile Number</string>
+    <string name="login_to_continue">Log in to continue</string>
+
+    <!--General-->
+
+    <string name="confirm">Confirm</string>
+    <string name="progress_loading">Loading&#8230;</string>
+    <string name="error_entry">Entry Invalid</string>
+    <string name="error_mail">Enter vaild mail ID</string>
+    <string name="error_number">Enter vaild phone number</string>
+    <string name="empty_entry">Field cannot be empty</string>
+    <string name="title_location_permission">Location Permission</string>
+    <string name="text_location_permission">Allow app to access your location?</string>
+    <string name="time">Select Time Slot</string>
+    <string name="date">Select Date</string>
+    <string name="time_selected">Requested Time Slot</string>
+    <string name="date_selected">Selected Date</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="cart">Cart</string>
+    <string name="cart_clear">Items in cart will be cleared. Do you wish to continue?</string>
+    <string name="language">Language</string>
+    <string name="choose_language">Choose your prefered language</string>
+
+    <!--OTP Page-->
+
+    <string name="verificationcode">Enter Verification Code</string>
+    <string name="didntrecievecode">Didn\'t receive the code?\t</string>
+    <string name="entercodetxt">We have sent a 4 digit verification code \n to your mobile number</string>
+    <string name="resend">Resend now</string>
+    <string name="resend_otp">Resend OTP?</string>
+    <string name="changenumber">Change number</string>
+
+    <!--Landing Page-->
+
+    <string name="home">Home</string>
+    <string name="services">Services</string>
+    <string name="category">Category</string>
+    <string name="category_title">SkilEx Services</string>
+    <string name="subcategory">Sub Category</string>
+    <string name="search_result">Search Result</string>
+    <string name="search">Search</string>
+
+    <!--Services Page-->
+
+    <string name="req_services">Requested Services</string>
+    <string name="ong_services">Ongoing Services</string>
+    <string name="service_history">Service History</string>
+    <string name="service_detail">Service Detail</string>
+    <string name="service_cost">Cost after inspection. Minimum charge is</string>
+    <string name="book_now">Book Now</string>
+    <string name="inclusion">Inclusions</string>
+    <string name="exclusion">Exclusion</string>
+    <string name="procedure">Procedure</string>
+    <string name="remove_service">Service Removed</string>
+    <string name="others">Others</string>
+    <string name="reason">Reason</string>
+    <string name="comment">Comment</string>
+    <string name="cancel_service_alert">If you cancel you will not be refunded the advance amount paid. Are you sure you want to cancel?</string>
+    <string name="cancel_service_noadvance_alert1">Are you sure you want to cancel your service?</string>
+
+    <!--Ongoing Page-->
+    <string name="about_service_person">About Service Expert</string>
+    <string name="service_provider">Service Associate</string>
+    <string name="service_starting_time">Service starting time</string>
+    <string name="service_approximate">Estimated cost</string>
+    <string name="cancel_service">Cancel Service</string>
+
+    <!--Booking Page-->
+
+    <string name="track">Tracking</string>
+    <string name="booking">Booking summary</string>
+    <string name="booking_status">Booking status</string>
+    <string name="service_charge">Service charge</string>
+    <string name="additional_charge">Additional charge</string>
+    <string name="additional_services">Addditional Services </string>
+    <string name="grand_total">Total Service Cost</string>
+    <string name="view_summary">View Summary</string>
+    <string name="service_summary">Service Summary</string>
+    <string name="clear">Clear All</string>
+
+    <!--Payment Page-->
+
+    <string name="access_code">Access Code</string>
+    <string name="pay_button">Pay</string>
+    <string name="pay_button_online">Pay Online</string>
+    <string name="pay_button_cash">Pay by Cash</string>
+    <string name="payment">Payment</string>
+    <string name="merchant_id">Merchant Id</string>
+    <string name="currency">Currency</string>
+    <string name="amount">Amount</string>
+<!--    <string name="redirect_url_advance">https://www.skilex.in/development/ccavenue_app/customer_advance.php</string>-->
+<!--    <string name="redirect_url">https://www.skilex.in/development/ccavenue_app/service_net_amount.php</string>-->
+    <string name="redirect_url_advance">https://www.skilex.in/ccavenue_app/customer_advance.php</string>
+    <string name="redirect_url">https://www.skilex.in/ccavenue_app/service_net_amount.php</string>
+    <string name="cancel_url">Cancel Url</string>
+    <string name="rsa_url">RSA Key Url</string>
+    <string name="advance_payment">Payment</string>
+    <string name="advance_amount">Advance Amount</string>
+    <string name="status">Payment Status</string>
+    <string name="booking_success">Success!</string>
+    <string name="booking_failed">Sorry!</string>
+    <string name="booking_success_comment">Your booking completed \n successfully</string>
+    <string name="booking_failed_comment">Your booking failed</string>
+    <string name="payment_success">Awesome!</string>
+    <string name="payment_failed">Something\'s wrong!</string>
+    <string name="payment_success_comment">Your service order completed \n successfully</string>
+    <string name="payment_failed_comment">Your service order failed</string>
+    <string name="go_home">Back to Home </string>
+    <string name="try_again">Try Again</string>
+    <string name="failed">Failed</string>
+    <string name="completed">Completed</string>
+    <string name="view_bill">View Bill</string>
+
+
+    <!--Profile Settings Page-->
+
+    <string name="profile_title">Profile</string>
+    <string name="about">About</string>
+    <string name="share">Share app</string>
+    <string name="rate_app">Rate app</string>
+    <string name="logout">Logout</string>
+
+
+    <!--Rating Page-->
+    <string name="rating_title">Rate Service</string>
+    <string name="rating_text">Rate your service</string>
+    <string name="rate">Rate</string>
+
+    <!--History Page-->
+    <!--<string name="service_charge">Service Charge</string>-->
+    <string name="sub_total">Sub Total</string>
+    <string name="coupon_applied">Coupon Applied</string>
+    <string name="coupon">Coupon</string>
+    <string name="select_coupon">Select Coupon</string>
+    <string name="apply_coupon">Apply</string>
+    <string name="grand_total_pay">Grand Total</string>
+    <string name="service_person">Service Expert</string>
+    <string name="share_invoice">Share Invoice</string>
+
+    <!--About Us Page-->
+    <string name="about_content">SkilEx is an emerging Indian start up that aims to build a scalable business model which serves as a platform connecting people, who are in need of local and personal services, with service associates. When there is need of service there is always a void in reaching to service experts at any given time. SkilEx comes into this scene of desperation to help consumers get the required service done at the right time. One can access a range of local services like refurbishment, renovation, restoration etc.; and personal services like fitness training, massages, physiotherapy, counselling, etc., via SkilEx and get things done in a convenient and affordable way.
+\n\nInitially aimed at launching in major cities of South India, SkilEx’s vision is to expand its base across the country including all the cities, building a bond between the service associates and their customers.
+</string>
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "727058333380",
+    "firebase_url": "https://tnulmcustomer.firebaseio.com",
+    "project_id": "tnulmcustomer",
+    "storage_bucket": "tnulmcustomer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727058333380:android:0eaadb04e21de175f85391",
+        "android_client_info": {
+          "package_name": "com.hst.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727058333380-rb4t5mt9tsn1s3r8ugd72vs2tisgc0mn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBReDmFWH9bZabmobwkYzALpIFZ8EG0YoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727058333380-rb4t5mt9tsn1s3r8ugd72vs2tisgc0mn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

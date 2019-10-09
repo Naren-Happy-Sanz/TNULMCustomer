@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:minHeight="60dp" />
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:minHeight="60dp"
+            android:paddingStart="13dp"
+            android:paddingEnd="13dp"
+            android:src="@drawable/ic_arrow_back_white_24dp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/back_btn"
+            android:fontFamily="@font/helvetica"
+            android:gravity="center_vertical|left"
+            android:minHeight="60dp"
+            android:padding="5dp"
+            android:text="Tracking"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <!--<com.google.android.gms.maps.MapView-->
+    <!--android:id="@+id/map"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--map:cameraTargetLat="16.29905101"-->
+    <!--map:cameraTargetLng="78.3984375" />-->
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="AAAAAAA"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            map:cameraTargetLat="11.127123"
+            map:cameraTargetLng="78.656891" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="20dp"
+            android:background="@drawable/shadow_round"
+            android:elevation="6dp">
+
+            <RelativeLayout
+                android:id="@+id/name_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:gravity="center_vertical">
+
+
+                <com.skilex.customer.customview.CircleImageView
+                    android:id="@+id/user_profile_img"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/ic_user_profile_image" />
+
+                <TextView
+                    android:id="@+id/service_person_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/user_profile_img"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/user_profile_img"
+                    android:fontFamily="@font/helvetica"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/service_person_experience"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/service_person_name"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:layout_toRightOf="@id/user_profile_img"
+                    android:fontFamily="@font/helvetica"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/service_person_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/service_person_name"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:layout_toRightOf="@id/user_profile_img"
+                    android:fontFamily="@font/helvetica"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name_layout"
+                android:background="@color/grey"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:padding="5dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:padding="3dp"
+                        android:src="@drawable/ic_date_blue" />
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="99-99-9999"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>
