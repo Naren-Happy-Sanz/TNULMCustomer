@@ -64,7 +64,7 @@
 
     <!--English-->
 
-    <string name="app_name">ஸ்கில்எக்ஸ்</string>
+    <string name="app_name">Customer</string>
     <string name="empty" />
     <string name="error_no_net">இணையத்தை அணுக இயலவில்லை. உங்கள் இணைப்பை சரிப்பார்க்கவும்.</string>
     <string name="error_occurred">இணைய சேவையக சிக்கல் ஏற்பட்டுள்ளது. சிறிது நேரம் கழித்து முயற்சி செய்யவும்.</string>
@@ -100,7 +100,7 @@
 
     <!--Google API key-->
 
-    <string name="google_android_map_api_key">AIzaSyD428E0W4-pf4kJuJ3rsqG5vCELRgmR2ok</string>
+    <string name="google_android_map_api_key">AIzaSyC1IIWK9TXNgUoFqiN79e3QJhfSHsdGuG4</string>
 
     <!--Login-->
 
@@ -204,13 +204,14 @@
     <string name="merchant_id">வணிகர் அடையாள எண்</string>
     <string name="currency">நாணயம்</string>
     <string name="amount">தொகை</string>
-<!--    <string name="redirect_url_advance">https://www.skilex.in/development/ccavenue_app/customer_advance.php</string>-->
-<!--    <string name="redirect_url">https://www.skilex.in/development/ccavenue_app/service_net_amount.php</string>-->
-        <string name="redirect_url_advance">https://www.skilex.in/ccavenue_app/customer_advance.php</string>
-        <string name="redirect_url">https://www.skilex.in/ccavenue_app/service_net_amount.php</string>
+    <!--    <string name="redirect_url_advance">https://www.skilex.in/development/ccavenue_app/customer_advance.php</string>-->
+    <!--    <string name="redirect_url">https://www.skilex.in/development/ccavenue_app/service_net_amount.php</string>-->
+    <!--    <string name="redirect_url_advance">https://www.skilex.in/ccavenue_app/customer_advance.php</string>-->
+    <!--    <string name="redirect_url">https://www.skilex.in/ccavenue_app/service_net_amount.php</string>-->
+    <string name="redirect_url_advance">https://happysanz.in/tnulm_demo/ccavenue_app/customer_advance.php</string>
+    <string name="redirect_url">https://happysanz.in/tnulm_demo/ccavenue_app/service_net_amount.php</string>
     <string name="cancel_url">Cancel Url</string>
-    <string name="rsa_url">RSA Key Url</string>
-
+    <string name="rsa_url">https://happysanz.in/tnulm_demo/ccavenue_app/GetRSA.php</string>
     <string name="advance_payment">கட்டணம்</string>
     <string name="advance_amount">முன் பணம்</string>
     <string name="status">கட்டண நிலவரம்</string>

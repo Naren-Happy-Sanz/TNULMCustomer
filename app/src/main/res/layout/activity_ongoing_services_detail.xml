@@ -185,7 +185,7 @@
                 </RelativeLayout>
 
 
-                <com.skilex.customer.customview.CircleImageView
+                <com.hst.customer.customview.CircleImageView
                     android:id="@+id/user_profile_img"
                     android:layout_width="100dp"
                     android:layout_height="100dp"

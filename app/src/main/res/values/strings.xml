@@ -2,7 +2,7 @@
 
     <!--English-->
 
-    <string name="app_name">SkilEx</string>
+    <string name="app_name">Customer</string>
     <string name="empty" />
     <string name="error_no_net">No internet access. Please check your connection and try again.</string>
     <string name="error_occurred">Failed to connect to the server. Please try again.</string>
@@ -39,7 +39,7 @@
 
     <!--Google API key-->
 
-    <string name="google_android_map_api_key">AIzaSyD428E0W4-pf4kJuJ3rsqG5vCELRgmR2ok</string>
+    <string name="google_android_map_api_key">AIzaSyC1IIWK9TXNgUoFqiN79e3QJhfSHsdGuG4</string>
 
     <!--Login-->
 
@@ -84,7 +84,7 @@
     <string name="home">Home</string>
     <string name="services">Services</string>
     <string name="category">Category</string>
-    <string name="category_title">SkilEx Services</string>
+    <string name="category_title">TNULM Services</string>
     <string name="subcategory">Sub Category</string>
     <string name="search_result">Search Result</string>
     <string name="search">Search</string>
@@ -139,10 +139,12 @@
     <string name="amount">Amount</string>
 <!--    <string name="redirect_url_advance">https://www.skilex.in/development/ccavenue_app/customer_advance.php</string>-->
 <!--    <string name="redirect_url">https://www.skilex.in/development/ccavenue_app/service_net_amount.php</string>-->
-    <string name="redirect_url_advance">https://www.skilex.in/ccavenue_app/customer_advance.php</string>
-    <string name="redirect_url">https://www.skilex.in/ccavenue_app/service_net_amount.php</string>
+<!--    <string name="redirect_url_advance">https://www.skilex.in/ccavenue_app/customer_advance.php</string>-->
+<!--    <string name="redirect_url">https://www.skilex.in/ccavenue_app/service_net_amount.php</string>-->
+    <string name="redirect_url_advance">https://happysanz.in/tnulm_demo/ccavenue_app/customer_advance.php</string>
+    <string name="redirect_url">https://happysanz.in/tnulm_demo/ccavenue_app/service_net_amount.php</string>
     <string name="cancel_url">Cancel Url</string>
-    <string name="rsa_url">RSA Key Url</string>
+    <string name="rsa_url">https://happysanz.in/tnulm_demo/ccavenue_app/GetRSA.php</string>
     <string name="advance_payment">Payment</string>
     <string name="advance_amount">Advance Amount</string>
     <string name="status">Payment Status</string>

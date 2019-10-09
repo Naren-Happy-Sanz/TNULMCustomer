@@ -6,7 +6,7 @@ android {
         config {
             keyAlias 'hst_alias'
             keyPassword 'hst#123'
-            storeFile file('hst.jks')
+            storeFile file('hstcustomer.jks')
             storePassword 'hst#123'
             flavorDimensions "default"
         }
@@ -18,7 +18,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
-        versionName "1.023"
+        versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 

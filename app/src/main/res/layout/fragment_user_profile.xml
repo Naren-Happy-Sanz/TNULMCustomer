@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:background="@color/white">
 
-        <com.skilex.customer.customview.CircleImageView
+        <com.hst.customer.customview.CircleImageView
             android:id="@+id/user_profile_img"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -185,6 +185,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
+            android:visibility="gone"
             android:layout_marginStart="20dp"
             android:orientation="horizontal">
 
